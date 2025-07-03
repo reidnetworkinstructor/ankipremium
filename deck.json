@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "osi_01",
+    "question": "What is Layer 1 of the OSI Model?",
+    "answer": "Physical Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_02",
+    "question": "What is Layer 2 of the OSI Model?",
+    "answer": "Data Link Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_03",
+    "question": "What is Layer 3 of the OSI Model?",
+    "answer": "Network Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_04",
+    "question": "What is Layer 4 of the OSI Model?",
+    "answer": "Transport Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_05",
+    "question": "What is Layer 5 of the OSI Model?",
+    "answer": "Session Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_06",
+    "question": "What is Layer 6 of the OSI Model?",
+    "answer": "Presentation Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_07",
+    "question": "What is Layer 7 of the OSI Model?",
+    "answer": "Application Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_08",
+    "question": "Which layer is responsible for encryption and compression?",
+    "answer": "Presentation Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_09",
+    "question": "Which layer sets up, manages, and ends connections?",
+    "answer": "Session Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_10",
+    "question": "Which layer uses logical addressing?",
+    "answer": "Network Layer (Layer 3)",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_11",
+    "question": "Which layer handles flow control and segmentation?",
+    "answer": "Transport Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_12",
+    "question": "What layer do TCP and UDP operate at?",
+    "answer": "Transport Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_13",
+    "question": "What is a PDU at Layer 4?",
+    "answer": "Segment",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_14",
+    "question": "What is a PDU at Layer 3?",
+    "answer": "Packet",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_15",
+    "question": "What is a PDU at Layer 2?",
+    "answer": "Frame",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_16",
+    "question": "What is a PDU at Layer 1?",
+    "answer": "Bit",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_17",
+    "question": "Name an example Layer 7 protocol.",
+    "answer": "HTTP, FTP, SMTP",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_18",
+    "question": "What layer does SSL/TLS operate at?",
+    "answer": "Presentation Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_19",
+    "question": "Which layer is responsible for routing?",
+    "answer": "Network Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_20",
+    "question": "Which layer ensures reliable delivery?",
+    "answer": "Transport Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_21",
+    "question": "Which layer manages sessions between apps?",
+    "answer": "Session Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_22",
+    "question": "Which layer handles MAC addressing?",
+    "answer": "Data Link Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_23",
+    "question": "What sublayers exist in Layer 2?",
+    "answer": "LLC and MAC",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_24",
+    "question": "Which layer defines media, cables, connectors?",
+    "answer": "Physical Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "osi_25",
+    "question": "Which layer adds trailers to frames?",
+    "answer": "Data Link Layer",
+    "tags": ["OSI Model & Protocols"]
+  },
+  {
+    "id": "topo_01",
+    "question": "What topology connects devices to a central hub?",
+    "answer": "Star topology",
+    "tags": ["Network Topologies & Types"]
+  },
+  {
+    "id": "topo_02",
+    "question": "What topology forms a loop?",
+    "answer": "Ring topology",
+    "tags": ["Network Topologies & Types"]
+  },
+  {
+    "id": "topo_03",
+    "question": "What topology uses a shared cable?",
+    "answer": "Bus topology",
+    "tags": ["Network Topologies & Types"]
+  },
+  {
+    "id": "topo_04",
+    "question": "What is a mesh topology?",
+    "answer": "Devices connect to many others.",
+    "tags": ["Network Topologies & Types"]
+  },
+  {
+    "id": "topo_05",
+    "question": "Which topology is fault-tolerant but expensive?",
+    "answer": "Full mesh topology",
+    "tags": ["Network Topologies & Types"]
+  },
+{
+  "id": "topo_06",
+  "question": "What is a hybrid topology?",
+  "answer": "Combines two or more topologies.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_07",
+  "question": "What is a logical topology?",
+  "answer": "How data moves through the network.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_08",
+  "question": "What is a physical topology?",
+  "answer": "How cables and devices are arranged physically.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_09",
+  "question": "What is point-to-point topology?",
+  "answer": "Direct connection between two devices.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_10",
+  "question": "Which topology is most common in Ethernet networks?",
+  "answer": "Star topology",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_11",
+  "question": "Which topology is cheapest to implement?",
+  "answer": "Bus topology",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_12",
+  "question": "What is a partial mesh topology?",
+  "answer": "Some nodes connect directly, not all.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_13",
+  "question": "What topology uses redundant links?",
+  "answer": "Mesh topology",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_14",
+  "question": "Name an advantage of star topology.",
+  "answer": "Easy to manage and troubleshoot.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_15",
+  "question": "Name a disadvantage of bus topology.",
+  "answer": "Collisions and single cable failure.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_16",
+  "question": "What is wireless mesh?",
+  "answer": "Wireless devices connect in mesh topology.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_17",
+  "question": "Which topology is best for high fault tolerance?",
+  "answer": "Full mesh.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_18",
+  "question": "Which topology has a single failure point in bus?",
+  "answer": "The shared backbone cable.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_19",
+  "question": "What topology is commonly used in WANs?",
+  "answer": "Mesh or hybrid.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_20",
+  "question": "What does physical star but logical bus mean?",
+  "answer": "Wired as star, data behaves like bus.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_21",
+  "question": "What is hub-and-spoke topology?",
+  "answer": "WAN design with central hub.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_22",
+  "question": "Which topology uses terminators?",
+  "answer": "Bus topology.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_23",
+  "question": "What is daisy chain topology?",
+  "answer": "Devices connected in series.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_24",
+  "question": "Which topology requires the most cabling?",
+  "answer": "Full mesh.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "topo_25",
+  "question": "What topology is most scalable?",
+  "answer": "Star or hybrid.",
+  "tags": ["Network Topologies & Types"]
+},
+{
+  "id": "ip_01",
+  "question": "What is the length of an IPv4 address?",
+  "answer": "32 bits.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_02",
+  "question": "What is the length of an IPv6 address?",
+  "answer": "128 bits.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_03",
+  "question": "What is the IPv4 loopback address?",
+  "answer": "127.0.0.1",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_04",
+  "question": "What is the IPv6 loopback address?",
+  "answer": "::1",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_05",
+  "question": "What is APIPA range?",
+  "answer": "169.254.0.0/16",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_06",
+  "question": "What is SLAAC in IPv6?",
+  "answer": "Stateless Address Autoconfiguration",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_07",
+  "question": "What is IPv6 unique local range?",
+  "answer": "fc00::/7",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_08",
+  "question": "What is IPv6 link-local range?",
+  "answer": "fe80::/10",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_09",
+  "question": "What is IPv6 multicast prefix?",
+  "answer": "ff00::/8",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_10",
+  "question": "What is CIDR notation for 255.255.255.0?",
+  "answer": "/24",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_11",
+  "question": "What class is 192.168.0.0?",
+  "answer": "Class C private",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_12",
+  "question": "What class is 10.0.0.0?",
+  "answer": "Class A private",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_13",
+  "question": "What class is 172.16.0.0?",
+  "answer": "Class B private",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_14",
+  "question": "What is unicast addressing?",
+  "answer": "One-to-one communication.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_15",
+  "question": "What is multicast addressing?",
+  "answer": "One-to-many selected devices.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_16",
+  "question": "What is broadcast addressing?",
+  "answer": "One-to-all on a subnet.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_17",
+  "question": "What is anycast addressing?",
+  "answer": "One-to-nearest of many.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_18",
+  "question": "What is IPv6 abbreviation with :: ?",
+  "answer": "Compresses consecutive zeros.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_19",
+  "question": "What is a subnet mask?",
+  "answer": "Defines network/host portions.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_20",
+  "question": "What is 255.255.255.128 in CIDR?",
+  "answer": "/25",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_21",
+  "question": "What does NAT stand for?",
+  "answer": "Network Address Translation",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_22",
+  "question": "What does PAT stand for?",
+  "answer": "Port Address Translation",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_23",
+  "question": "Why use NAT?",
+  "answer": "Conserve public IPs, add security.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_24",
+  "question": "What is default gateway?",
+  "answer": "Router IP for outbound traffic.",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "ip_25",
+  "question": "What tool tests IPv6 connectivity?",
+  "answer": "ping6 or ping -6",
+  "tags": ["IPv4 / IPv6 Addressing"]
+},
+{
+  "id": "subnet_01",
+  "question": "What is subnetting?",
+  "answer": "Dividing a network into smaller networks.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_02",
+  "question": "What is the purpose of subnetting?",
+  "answer": "Improve network management, security.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_03",
+  "question": "What is VLSM?",
+  "answer": "Variable Length Subnet Masking.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_04",
+  "question": "What is CIDR?",
+  "answer": "Classless Inter-Domain Routing.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_05",
+  "question": "What device routes packets?",
+  "answer": "Router.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_06",
+  "question": "What is static routing?",
+  "answer": "Manually configured routes.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_07",
+  "question": "What is dynamic routing?",
+  "answer": "Routers share updates automatically.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_08",
+  "question": "Name a distance-vector protocol.",
+  "answer": "RIP.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_09",
+  "question": "Name a link-state protocol.",
+  "answer": "OSPF.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_10",
+  "question": "What is EIGRP?",
+  "answer": "Cisco's advanced distance-vector protocol.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_11",
+  "question": "What is BGP?",
+  "answer": "Border Gateway Protocol, used between ISPs.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_12",
+  "question": "What is route summarization?",
+  "answer": "Combines routes into one advertisement.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_13",
+  "question": "What is default route?",
+  "answer": "Catch-all for unknown destinations.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_14",
+  "question": "What does metric mean in routing?",
+  "answer": "Value to choose best route.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_15",
+  "question": "What is administrative distance?",
+  "answer": "Trustworthiness of a route source.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_16",
+  "question": "What is convergence time?",
+  "answer": "Time routers agree on routes.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_17",
+  "question": "What is split horizon?",
+  "answer": "Prevents routing loops.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_18",
+  "question": "What is poison reverse?",
+  "answer": "Route advertised as unreachable.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_19",
+  "question": "What is hop count?",
+  "answer": "Number of routers to destination.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_20",
+  "question": "What is next hop?",
+  "answer": "IP address of next router.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_21",
+  "question": "What is routing table?",
+  "answer": "List of known network paths.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_22",
+  "question": "What is equal-cost multipath?",
+  "answer": "Load balancing over equal routes.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_23",
+  "question": "What is route redistribution?",
+  "answer": "Sharing routes between protocols.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_24",
+  "question": "What is OSPF area?",
+  "answer": "Logical grouping to manage routing.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "subnet_25",
+  "question": "What is backbone area in OSPF?",
+  "answer": "Area 0, connects all other areas.",
+  "tags": ["Subnetting & Routing"]
+},
+{
+  "id": "vpn_01",
+  "question": "What does VPN stand for?",
+  "answer": "Virtual Private Network.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_02",
+  "question": "What is site-to-site VPN?",
+  "answer": "Connects entire networks securely.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_03",
+  "question": "What is client-to-site VPN?",
+  "answer": "User connects to corporate network.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_04",
+  "question": "What is split tunneling?",
+  "answer": "Some traffic through VPN, some direct.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_05",
+  "question": "What protocol does OpenVPN use?",
+  "answer": "SSL/TLS.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_06",
+  "question": "What is IPSec used for?",
+  "answer": "Encrypts IP traffic.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_07",
+  "question": "What does IKE do in IPSec?",
+  "answer": "Negotiates security associations.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_08",
+  "question": "What is ESP in IPSec?",
+  "answer": "Encapsulating Security Payload for encryption.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_09",
+  "question": "What is AH in IPSec?",
+  "answer": "Authentication Header for integrity.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_10",
+  "question": "What is L2TP?",
+  "answer": "Layer 2 Tunneling Protocol.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_11",
+  "question": "What is PPTP?",
+  "answer": "Point-to-Point Tunneling Protocol (legacy).",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_12",
+  "question": "What is SSTP?",
+  "answer": "Secure Socket Tunneling Protocol (uses SSL).",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_13",
+  "question": "What is GRE?",
+  "answer": "Generic Routing Encapsulation.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_14",
+  "question": "What is always-on VPN?",
+  "answer": "Stays connected automatically.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_15",
+  "question": "What is remote access VPN?",
+  "answer": "Connects single user to network.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_16",
+  "question": "What does SSL VPN use?",
+  "answer": "Web browser and SSL/TLS.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_17",
+  "question": "What is VPN concentrator?",
+  "answer": "Device for managing VPN connections.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_18",
+  "question": "Why use VPN?",
+  "answer": "Secure communication over untrusted networks.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_19",
+  "question": "What is tunneling?",
+  "answer": "Encapsulating traffic inside another protocol.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_20",
+  "question": "What does NAT Traversal do?",
+  "answer": "Allows VPN through NAT devices.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_21",
+  "question": "What port does IPSec often use?",
+  "answer": "UDP 500 for IKE.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_22",
+  "question": "What port does OpenVPN use?",
+  "answer": "Typically UDP 1194.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_23",
+  "question": "What is IKEv2?",
+  "answer": "Improved IKE for VPN negotiation.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_24",
+  "question": "What is VPN split tunneling risk?",
+  "answer": "Traffic bypasses security monitoring.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "vpn_25",
+  "question": "What is double VPN?",
+  "answer": "Traffic encrypted twice through two servers.",
+  "tags": ["VPN & Remote Access"]
+},
+{
+  "id": "wireless_01",
+  "question": "What does SSID stand for?",
+  "answer": "Service Set Identifier.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_02",
+  "question": "What frequency bands does Wi-Fi use?",
+  "answer": "2.4 GHz and 5 GHz.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_03",
+  "question": "What is 802.11ac known for?",
+  "answer": "High-speed 5 GHz Wi-Fi.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_04",
+  "question": "What is WPA2?",
+  "answer": "Wi-Fi security standard using AES.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_05",
+  "question": "What is WPA3?",
+  "answer": "Improved Wi-Fi security standard.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_06",
+  "question": "What is WEP?",
+  "answer": "Wired Equivalent Privacy (insecure).",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_07",
+  "question": "What is MIMO?",
+  "answer": "Multiple Input Multiple Output antennas.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_08",
+  "question": "What is a rogue AP?",
+  "answer": "Unauthorized access point.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_09",
+  "question": "What is a captive portal?",
+  "answer": "Login page before network access.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_10",
+  "question": "What is a wireless controller?",
+  "answer": "Manages multiple APs centrally.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_11",
+  "question": "What is a site survey?",
+  "answer": "Assessment to plan Wi-Fi coverage.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_12",
+  "question": "What is 802.1X used for?",
+  "answer": "Port-based network access control.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_13",
+  "question": "What is PSK?",
+  "answer": "Pre-Shared Key for Wi-Fi.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_14",
+  "question": "What is EAP?",
+  "answer": "Extensible Authentication Protocol.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_15",
+  "question": "What is Wi-Fi analyzer?",
+  "answer": "Tool to detect signal strength and interference.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_16",
+  "question": "What is band steering?",
+  "answer": "Pushes clients to less congested band.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_17",
+  "question": "What is beamforming?",
+  "answer": "Directs signal toward client device.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_18",
+  "question": "What is Wi-Fi 6?",
+  "answer": "802.11ax standard with OFDMA.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_19",
+  "question": "What is channel overlap?",
+  "answer": "Interference between adjacent channels.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_20",
+  "question": "What is channel bonding?",
+  "answer": "Combines channels for higher throughput.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_21",
+  "question": "What is SSID broadcast?",
+  "answer": "Makes network name visible.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_22",
+  "question": "What is MAC filtering?",
+  "answer": "Allows/blocks devices by MAC address.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_23",
+  "question": "What is client isolation?",
+  "answer": "Prevents clients from communicating directly.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_24",
+  "question": "What is war driving?",
+  "answer": "Searching for Wi-Fi networks in motion.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "wireless_25",
+  "question": "What is evil twin attack?",
+  "answer": "Fake AP mimicking real one.",
+  "tags": ["Wireless Standards & Security"]
+},
+{
+  "id": "devices_01",
+  "question": "What does a switch do?",
+  "answer": "Connects devices at Layer 2.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_02",
+  "question": "What does a router do?",
+  "answer": "Routes traffic between networks.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_03",
+  "question": "What is a firewall?",
+  "answer": "Filters traffic based on rules.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_04",
+  "question": "What is a hub?",
+  "answer": "Broadcasts traffic to all ports.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_05",
+  "question": "What is a bridge?",
+  "answer": "Connects two network segments.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_06",
+  "question": "What is a patch panel?",
+  "answer": "Organizes cable connections in a rack.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_07",
+  "question": "What is plenum-rated cable?",
+  "answer": "Cable with fire-resistant jacket for plenum spaces.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_08",
+  "question": "What is a media converter?",
+  "answer": "Converts between fiber and copper connections.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_09",
+  "question": "What is a transceiver?",
+  "answer": "Sends and receives network signals.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_10",
+  "question": "What is PoE?",
+  "answer": "Power over Ethernet.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_11",
+  "question": "What is STP cable?",
+  "answer": "Shielded Twisted Pair.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_12",
+  "question": "What is UTP cable?",
+  "answer": "Unshielded Twisted Pair.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_13",
+  "question": "What is a crossover cable?",
+  "answer": "Connects like devices directly.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_14",
+  "question": "What is straight-through cable?",
+  "answer": "Connects different device types.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_15",
+  "question": "What connector does Ethernet use?",
+  "answer": "RJ-45.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_16",
+  "question": "What connector does phone cable use?",
+  "answer": "RJ-11.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_17",
+  "question": "What is LC connector?",
+  "answer": "Small form-factor fiber connector.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_18",
+  "question": "What is SC connector?",
+  "answer": "Snap-in fiber connector.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_19",
+  "question": "What is multimode fiber?",
+  "answer": "Short-range, cheaper, multiple light paths.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_20",
+  "question": "What is single-mode fiber?",
+  "answer": "Long-range, single light path.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_21",
+  "question": "What is attenuation?",
+  "answer": "Signal loss over distance.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_22",
+  "question": "What is EMI?",
+  "answer": "Electromagnetic Interference.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_23",
+  "question": "What is crosstalk?",
+  "answer": "Signal interference between cables.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_24",
+  "question": "What is punchdown block?",
+  "answer": "Wiring termination point.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "devices_25",
+  "question": "What is a keystone jack?",
+  "answer": "Modular RJ-45 wall port.",
+  "tags": ["Network Devices & Cabling"]
+},
+{
+  "id": "security_01",
+  "question": "What is a firewall rule?",
+  "answer": "Policy that allows or blocks traffic.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_02",
+  "question": "What is an ACL?",
+  "answer": "Access Control List.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_03",
+  "question": "What is IDS?",
+  "answer": "Intrusion Detection System.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_04",
+  "question": "What is IPS?",
+  "answer": "Intrusion Prevention System.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_05",
+  "question": "What is DDoS?",
+  "answer": "Distributed Denial of Service attack.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_06",
+  "question": "What is VPN concentrator?",
+  "answer": "Device for managing VPN connections.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_07",
+  "question": "What is DMZ?",
+  "answer": "Demilitarized Zone between networks.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_08",
+  "question": "What is port security?",
+  "answer": "Limits devices per switch port.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_09",
+  "question": "What is 802.1X?",
+  "answer": "Port-based network access control.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_10",
+  "question": "What is MAC filtering?",
+  "answer": "Controls access by MAC address.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_11",
+  "question": "What is VLAN?",
+  "answer": "Virtual LAN that segments network.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_12",
+  "question": "What is a proxy server?",
+  "answer": "Forwards client requests for filtering.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_13",
+  "question": "What is UTM?",
+  "answer": "Unified Threat Management device.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_14",
+  "question": "What is honeypot?",
+  "answer": "Decoy system to detect attackers.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_15",
+  "question": "What is RADIUS?",
+  "answer": "Remote Authentication Dial-In User Service.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_16",
+  "question": "What is TACACS+?",
+  "answer": "Cisco protocol for AAA services.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_17",
+  "question": "What is AAA?",
+  "answer": "Authentication, Authorization, Accounting.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_18",
+  "question": "What is encryption?",
+  "answer": "Scrambles data for confidentiality.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_19",
+  "question": "What is hashing?",
+  "answer": "Creates fixed-length fingerprint of data.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_20",
+  "question": "What is symmetric encryption?",
+  "answer": "Same key for encrypt/decrypt.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_21",
+  "question": "What is asymmetric encryption?",
+  "answer": "Uses public/private key pair.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_22",
+  "question": "What is PKI?",
+  "answer": "Public Key Infrastructure.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_23",
+  "question": "What is digital certificate?",
+  "answer": "Verifies identity using PKI.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_24",
+  "question": "What is man-in-the-middle attack?",
+  "answer": "Intercepts communication between parties.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "security_25",
+  "question": "What is phishing?",
+  "answer": "Tricking users to reveal info.",
+  "tags": ["Network Security"]
+},
+{
+  "id": "troubleshoot_01",
+  "question": "What is traceroute used for?",
+  "answer": "Shows path to destination.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_02",
+  "question": "What does ping test?",
+  "answer": "Connectivity and latency.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_03",
+  "question": "What is nslookup?",
+  "answer": "Resolves DNS records.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_04",
+  "question": "What is dig?",
+  "answer": "Advanced DNS lookup tool.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_05",
+  "question": "What is arp?",
+  "answer": "Shows IP/MAC mappings.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_06",
+  "question": "What is ipconfig?",
+  "answer": "Displays Windows IP settings.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_07",
+  "question": "What is ifconfig?",
+  "answer": "Displays Linux/Unix IP settings.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_08",
+  "question": "What is netstat?",
+  "answer": "Displays network connections.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_09",
+  "question": "What is nmap?",
+  "answer": "Network scanning tool.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "troubleshoot_10",
+  "question": "What is tcpdump?",
+  "answer": "Command-line packet capture.",
+  "tags": ["Troubleshooting & Tools"]
+},
+{
+  "id": "cloud_01",
+  "question": "What is IaaS?",
+  "answer": "Infrastructure as a Service.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_02",
+  "question": "What is PaaS?",
+  "answer": "Platform as a Service.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_03",
+  "question": "What is SaaS?",
+  "answer": "Software as a Service.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_04",
+  "question": "What is public cloud?",
+  "answer": "Services shared over internet.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_05",
+  "question": "What is private cloud?",
+  "answer": "Dedicated to one organization.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_06",
+  "question": "What is hybrid cloud?",
+  "answer": "Mix of public and private.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_07",
+  "question": "What is community cloud?",
+  "answer": "Shared between similar organizations.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_08",
+  "question": "What is virtualization?",
+  "answer": "Running multiple OS on one host.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_09",
+  "question": "What is hypervisor?",
+  "answer": "Manages virtual machines.",
+  "tags": ["Cloud & Virtualization"]
+},
+{
+  "id": "cloud_10",
+  "question": "What is containerization?",
+  "answer": "Isolates apps using shared OS.",
+  "tags": ["Cloud & Virtualization"]
+}
+]
+
+
+
+
+
+

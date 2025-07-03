@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Network+ Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Network+ Flashcards</h1>
+    <p>Select your topics and session size to begin studying.</p>
+  </header>
+
+  <!-- HOME SCREEN -->
+  <section id="home-screen">
+    <h2>Select Sections</h2>
+    <form id="section-form">
+      <div id="section-checkboxes">
+        <!-- Dynamically populated from JS -->
+      </div>
+
+      <h2>Select Session Size</h2>
+      <div id="session-size-options">
+        <label>
+          <input type="radio" name="session-size" value="15" checked /> 15 cards
+        </label>
+        <label>
+          <input type="radio" name="session-size" value="30" /> 30 cards
+        </label>
+        <label>
+          <input type="radio" name="session-size" value="50" /> 50 cards
+        </label>
+        <label>
+          <input type="radio" name="session-size" value="unlimited" /> Unlimited
+        </label>
+      </div>
+
+      <button type="submit" id="start-button">Start Studying</button>
+    </form>
+  </section>
+
+  <!-- STUDY SESSION SCREEN -->
+  <section id="study-screen" class="hidden">
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+
+    <div id="card-container">
+      <div id="flashcard" class="card">
+        <div class="front" id="card-front"></div>
+        <div class="back" id="card-back"></div>
+      </div>
+      <button id="flip-button">Flip Card</button>
+    </div>
+
+    <div id="rating-buttons">
+      <button class="rate-button" data-rating="Hard">Hard</button>
+      <button class="rate-button" data-rating="Medium">Medium</button>
+      <button class="rate-button" data-rating="Easy">Easy</button>
+    </div>
+
+    <button id="end-session-button" class="hidden">End Session</button>
+  </section>
+
+  <!-- COMPLETION SCREEN -->
+  <section id="completion-screen" class="hidden">
+    <h2>Great Job!</h2>
+    <p id="completion-message"></p>
+    <button id="restart-button">Start Another Session</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
